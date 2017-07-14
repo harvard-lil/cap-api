@@ -3,8 +3,8 @@ from django.http.request import QueryDict, MultiValueDict
 from rest_framework.test import RequestsClient
 from bs4 import BeautifulSoup
 
-from capi_project.tests import helpers
-from capi_project import models, view_helpers
+from capapi.tests import helpers
+from capapi import models, view_helpers
 
 class AccountViewsTestCase(TransactionTestCase):
     def setUp(self):

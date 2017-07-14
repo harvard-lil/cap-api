@@ -1,5 +1,5 @@
 from django.test import TestCase
-from capi_project.resources import *
+from capapi.resources import *
 
 class ModelTestCase(TestCase):
     def test_format_blacklisted_filename(self):

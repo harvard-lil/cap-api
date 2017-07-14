@@ -51,5 +51,5 @@ For testing:
 ```
 
 ```
-python manage.py test capi_project.tests
+python manage.py test capapi.tests
 ```

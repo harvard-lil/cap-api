@@ -1,6 +1,6 @@
 from django.test import TestCase
-import capi_project.tests.helpers as helpers
-from capi_project.models import Reporter
+import capapi.tests.helpers as helpers
+from capapi.models import Reporter
 
 
 class ModelTestCase(TestCase):

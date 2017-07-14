@@ -1,8 +1,8 @@
 from django.test import TestCase
-from capi_project.models import Case
+from capapi.models import Case
 
 from django.test import Client
-import capi_project.tests.helpers as helpers
+import capapi.tests.helpers as helpers
 from django.conf import settings
 import json
 

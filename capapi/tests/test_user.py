@@ -1,8 +1,8 @@
 from django.test import TestCase
-from capi_project.models import CaseUser
+from capapi.models import CaseUser
 
 from django.conf import settings
-import capi_project.tests.helpers as helpers
+import capapi.tests.helpers as helpers
 import pytz
 from datetime import datetime, timedelta
 

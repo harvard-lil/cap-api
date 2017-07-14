@@ -1,5 +1,5 @@
-from capi_project.models import Case, CaseUser, Court, Jurisdiction, Reporter
-from capi_project.utils import generate_unique_slug
+from capapi.models import Case, CaseUser, Court, Jurisdiction, Reporter
+from capapi.utils import generate_unique_slug
 import pytz
 from datetime import datetime
 
